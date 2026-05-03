@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/images/fireworks-ai-tools-memory-icon.png" alt="fireworks-ai-tools-memory icon" width="120" />
+
+<br />
+
 # fireworks-ai-tools-memory
 
 **给 AI 工具、CLI 工作流和可复用脚本做持久化经验记忆。**
@@ -9,6 +13,8 @@
 [English](README.md) · [MIT License](LICENSE)
 
 </div>
+
+![fireworks-ai-tools-memory landing image](assets/images/fireworks-ai-tools-memory-landing.png)
 
 ---
 
@@ -109,3 +115,13 @@ python3 cli/tools_memory.py export-script \
 - `fireworks-ai-tools-memory`：记住某个工具、某条工具链该怎么操作才不翻车
 
 这两个不是替代关系，而是互补关系。
+
+## 仓库资源
+
+```text
+fireworks-ai-tools-memory/
+├── assets/
+│   └── images/
+│       ├── fireworks-ai-tools-memory-icon.png
+│       └── fireworks-ai-tools-memory-landing.png
+```

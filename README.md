@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/images/fireworks-ai-tools-memory-icon.png" alt="fireworks-ai-tools-memory icon" width="120" />
+
+<br />
+
 # fireworks-ai-tools-memory
 
 **Persistent experience memory for AI tools, CLI workflows, and reusable scripts.**
@@ -9,6 +13,8 @@ This project extends the memory idea beyond skills and focuses on the messier op
 [中文文档](README.zh-CN.md) · [MIT License](LICENSE)
 
 </div>
+
+![fireworks-ai-tools-memory landing image](assets/images/fireworks-ai-tools-memory-landing.png)
 
 ---
 
@@ -124,3 +130,13 @@ It is opinionated:
 - `fireworks-ai-tools-memory`: remember how to operate tools better
 
 They are complementary, not redundant.
+
+## Repository Assets
+
+```text
+fireworks-ai-tools-memory/
+├── assets/
+│   └── images/
+│       ├── fireworks-ai-tools-memory-icon.png
+│       └── fireworks-ai-tools-memory-landing.png
+```
