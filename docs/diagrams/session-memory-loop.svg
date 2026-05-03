@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="960" height="640">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f1a"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <marker id="a-purple" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#a855f7"/>
+    </marker>
+    <marker id="a-orange" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#f97316"/>
+    </marker>
+    <marker id="a-blue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#3b82f6"/>
+    </marker>
+    <marker id="a-green" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#10b981"/>
+    </marker>
+  </defs>
+  <rect width="960" height="640" rx="18" fill="url(#bg2)"/>
+  <text x="480" y="36" fill="#e2e8f0" font-family="'SF Mono', 'Fira Code', monospace" font-size="18" text-anchor="middle" font-weight="700">Session Memory Loop</text>
+  <text x="480" y="56" fill="#94a3b8" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" text-anchor="middle">How one real task turns into future tool guidance</text>
+
+  <rect x="82" y="96" width="796" height="478" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1.2"/>
+
+  <rect x="390" y="118" width="180" height="62" rx="12" fill="#1e1b4b" stroke="#a855f7" stroke-width="1.8"/>
+  <text x="480" y="145" fill="#ede9fe" font-family="'SF Mono', 'Fira Code', monospace" font-size="11.5" text-anchor="middle">1. inject</text>
+  <text x="480" y="165" fill="#c4b5fd" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" text-anchor="middle">load the top lessons before work starts</text>
+
+  <rect x="674" y="220" width="168" height="72" rx="12" fill="#172554" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="758" y="247" fill="#dbeafe" font-family="'SF Mono', 'Fira Code', monospace" font-size="11.5" text-anchor="middle">2. operate the tool</text>
+  <text x="758" y="267" fill="#93c5fd" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" text-anchor="middle">auth, playback, search, proxy,</text>
+  <text x="758" y="283" fill="#93c5fd" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" text-anchor="middle">daemon, path, process cleanup</text>
+
+  <rect x="652" y="386" width="190" height="82" rx="12" fill="#431407" stroke="#f97316" stroke-width="1.8"/>
+  <text x="747" y="413" fill="#ffedd5" font-family="'SF Mono', 'Fira Code', monospace" font-size="11.5" text-anchor="middle">3. checkpoint</text>
+  <text x="747" y="433" fill="#fdba74" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" text-anchor="middle">append raw notes while context</text>
+  <text x="747" y="449" fill="#fdba74" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" text-anchor="middle">is still fresh and specific</text>
+
+  <rect x="370" y="476" width="220" height="74" rx="12" fill="#052e16" stroke="#10b981" stroke-width="1.8"/>
+  <text x="480" y="503" fill="#d1fae5" font-family="'SF Mono', 'Fira Code', monospace" font-size="11.5" text-anchor="middle">4. flush</text>
+  <text x="480" y="523" fill="#a7f3d0" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" text-anchor="middle">distill summary/session text into</text>
+  <text x="480" y="539" fill="#a7f3d0" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" text-anchor="middle">deduped lessons with HIT counters</text>
+
+  <rect x="120" y="386" width="208" height="82" rx="12" fill="#1f2937" stroke="#eab308" stroke-width="1.8"/>
+  <text x="224" y="413" fill="#fde68a" font-family="'SF Mono', 'Fira Code', monospace" font-size="11.5" text-anchor="middle">5. register-script</text>
+  <text x="224" y="433" fill="#fcd34d" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" text-anchor="middle">promote a working script from</text>
+  <text x="224" y="449" fill="#fcd34d" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" text-anchor="middle">throwaway fix into reusable asset</text>
+
+  <rect x="124" y="220" width="200" height="74" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.8"/>
+  <text x="224" y="248" fill="#d1fae5" font-family="'SF Mono', 'Fira Code', monospace" font-size="11.5" text-anchor="middle">6. next session</text>
+  <text x="224" y="268" fill="#a7f3d0" font-family="'SF Mono', 'Fira Code', monospace" font-size="9.5" text-anchor="middle">reuse lessons and exported scripts</text>
+
+  <path d="M570 149 C640 149 698 176 734 220" fill="none" stroke="#a855f7" stroke-width="2.4" marker-end="url(#a-purple)"/>
+  <path d="M758 292 C758 330 753 350 748 386" fill="none" stroke="#3b82f6" stroke-width="2.4" marker-end="url(#a-blue)"/>
+  <path d="M652 427 C620 450 576 470 590 492" fill="none" stroke="#f97316" stroke-width="2.4" marker-end="url(#a-orange)"/>
+  <path d="M370 512 C320 500 278 484 250 468" fill="none" stroke="#10b981" stroke-width="2.4" marker-end="url(#a-green)"/>
+  <path d="M190 386 C178 352 176 324 188 294" fill="none" stroke="#eab308" stroke-width="2.4" marker-end="url(#a-orange)"/>
+  <path d="M324 246 C344 208 376 182 390 170" fill="none" stroke="#10b981" stroke-width="2.4" marker-end="url(#a-green)"/>
+
+  <text x="650" y="138" fill="#c4b5fd" font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" text-anchor="middle">preload memory</text>
+  <text x="790" y="342" fill="#93c5fd" font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" text-anchor="middle">capture friction</text>
+  <text x="608" y="470" fill="#fdba74" font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" text-anchor="middle">distill lessons</text>
+  <text x="296" y="500" fill="#a7f3d0" font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" text-anchor="middle">save assets</text>
+  <text x="178" y="334" fill="#fcd34d" font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" text-anchor="middle">carry scripts</text>
+  <text x="356" y="216" fill="#6ee7b7" font-family="'SF Mono', 'Fira Code', monospace" font-size="8.5" text-anchor="middle">smarter retry</text>
+
+  <rect x="176" y="554" width="608" height="22" rx="11" fill="#111827" stroke="#334155" stroke-width="1"/>
+  <text x="480" y="569" fill="#64748b" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" text-anchor="middle">Necessary because fragile tool behavior is discovered mid-flight, not at install time; memory must close the loop after the task.</text>
+</svg>
